@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eat Healthy</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .shadow-4xl {
+            box-shadow: 0 0 20px 8px rgba(0, 0, 0, .1);
+        }
+    </style>
 </head>
 
 <body>
@@ -17,7 +22,7 @@
                 <p class="text-base text-zinc-400 mt-10 max-w-md">Imagine you don't need a diet because we provide healthy and
                     delicious food for you!</p>
                 <button
-                    class="bg-gradient-to-r from-orange-400 to-orange-600 px-8 py-4 text-sm text-white font-semibold capitalize rounded-full mt-12 transition-all hover:bg-gradient-to-l">order
+                    class="bg-gradient-to-r from-orange-400 to-orange-600 px-8 py-4 text-sm text-white font-semibold capitalize rounded-full mt-12 transition-all hover:bg-gradient-to-l" style="box-shadow: 0 0 10px 5px rgba(251, 146, 60, .3)">order
                     food</button>
             </div>
             <img class="w-1/2 relative bottom-8 right-1" src="images/male/hero-bg.png" alt="hero">
@@ -33,7 +38,29 @@
                     <h2 class="text-zinc-500 text-4xl font-bold">About Me</h2>
                     <p class="mt-8 text-base text-zinc-800 font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.</p>
                     <button
-                    class="bg-gradient-to-r from-orange-400 to-orange-600 px-8 py-4 text-sm text-white lowercase font-semibold rounded-full mt-24 transition-all hover:bg-gradient-to-l">contact Me</button>
+                    class="bg-gradient-to-r from-orange-400 to-orange-600 px-8 py-4 text-sm text-white lowercase font-semibold rounded-full mt-24 transition-all hover:bg-gradient-to-l" style="box-shadow: 0 0 10px 5px rgba(251, 146, 60, .3)">contact Me</button>
+                </div>
+            </div>
+        </section>
+        <section class="max-w-7xl m-auto px-5 mt-20">
+            <div class="max-w-2xl m-auto">
+                <h2 class="text-4xl text-zinc-500 font-bold text-center capitalize">My recipes</h2>
+                <p class="mt-7 text-base text-zinc-800 font-normal text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque delectus aut quo deleniti. Fugiat quasi nam saepe ad ex quae! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-5 mt-10">
+                <div class="p-7 shadow-4xl rounded-3xl">
+                    <img src="images/food/meal.jpg" alt="meal">
+                    <a class=" inline-block hover:underline decoration-orange-500 underline-offset-4" href="http://" target="_blank" rel="noopener noreferrer">
+                        <h3 class="text-2xl text-zinc-800 font-extrabold mt-7">Recipe Title</h3>
+                    </a>
+                    <p class="text-base text-zinc-400 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem delectus in, adipisci dolores quia amet ratione earum totam corporis rem aperiam dignissimos dolor? Est, nemo ad voluptas qui nam consectetur.</p>
+                </div>
+                <div class="p-7 shadow-4xl rounded-3xl">
+                    <img src="images/food/meal.jpg" alt="meal">
+                    <a class=" inline-block hover:underline decoration-orange-500 underline-offset-4" href="http://" target="_blank" rel="noopener noreferrer">
+                        <h3 class="text-2xl text-zinc-800 font-extrabold mt-7">Recipe Title</h3>
+                    </a>
+                    <p class="text-base text-zinc-400 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem delectus in, adipisci dolores quia amet ratione earum totam corporis rem aperiam dignissimos dolor? Est, nemo ad voluptas qui nam consectetur.</p>
                 </div>
             </div>
         </section>
